@@ -57,7 +57,7 @@ app.post("/add_food", (req, res) => {
     res.render("display_food_summary", {
       foodName,
       calories,
-      tags: tags.join(', ')
+      tags: tags.join(',')
     });
   });
 
